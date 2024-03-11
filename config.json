@@ -1,0 +1,14 @@
+{
+    "8.8.8.8": {
+        "name": "ДНС Google",
+        "media": "error.mp3",
+        "timeout": 50,
+        "skiperrors": 1
+    },
+    "google.com": {
+        "name": "Google",
+        "media": "error.mp3",
+        "timeout": 2,
+        "skiperrors": 2
+    }
+}
