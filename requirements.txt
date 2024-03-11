@@ -1,0 +1,10 @@
+# requirements.txt
+
+cx_Freeze==6.15.15
+loguru==0.7.2
+nested_dict==1.61
+numpy==1.26.4
+pillow==10.2.0
+ping3==4.0.4
+pygame==2.5.2
+wxPython==4.2.1

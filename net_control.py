@@ -96,7 +96,7 @@ class MyDialog(wx.Dialog):
 
 class MyFrame(wx.Frame):
     def __init__(self, parent, title):
-        style = wx.DEFAULT_FRAME_STYLE & ~wx.MAXIMIZE_BOX
+        style = wx.DEFAULT_FRAME_STYLE & ~wx.MAXIMIZE_BOX & ~(wx.CLOSE_BOX)
         super(MyFrame, self).__init__(parent, title=title, style=style)
         icon = wx.Icon('net24.ico', wx.BITMAP_TYPE_ICO)
         self.SetIcon(icon)
