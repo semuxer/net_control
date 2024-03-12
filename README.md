@@ -22,4 +22,4 @@ Before use, make changes to the configuration file <config.json>
 ```
 
 
-Code by Serhii Movchan, 2024
+Author: Sergey Movchan, 2024
